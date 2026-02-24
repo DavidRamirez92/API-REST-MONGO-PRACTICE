@@ -39,3 +39,9 @@ Si es Chrome moderno → casi nada.
 
 -------
 tenemos que crear un archivo en root llamado .babelrc
+
+-------
+package.json:
+ "scripts": {
+    "start": "nodemon ./index.js --exec babel-node"
+  },
